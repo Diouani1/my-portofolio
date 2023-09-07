@@ -21,7 +21,7 @@ function Navcomponent() {
         <Container>
           <div className="d-flex justify-content-between align-items-center w-100">
             <Navbar.Brand
-              style={{ fontWeight: "bold" }}
+              style={{ fontWeight: "bold", cursor: "pointer" }}
               className="custom-navbar"
               onClick={() => handleMenuItemClick("")}
             >
