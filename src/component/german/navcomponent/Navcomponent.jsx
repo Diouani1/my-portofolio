@@ -51,12 +51,18 @@ function Navcomponent() {
               >
                 KONTAKT
               </Nav.Link>
-              <NavDropdown title="Projects" id="basic-nav-dropdown">
+              <NavDropdown title="Projekte" id="basic-nav-dropdown">
                 <NavDropdown.Item
                   href="https://github.com/Diouani1/react-group-project"
                   target="_blank"
                 >
                   Lebenslaufproject
+                </NavDropdown.Item>
+                <NavDropdown.Item
+                  href="https://github.com/Diouani1/my-portofolio"
+                  target="_blank"
+                >
+                  Mein Portfolio
                 </NavDropdown.Item>
                 <NavDropdown.Item
                   href="https://github.com/Diouani1/Friseur-Project"

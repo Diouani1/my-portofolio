@@ -58,6 +58,12 @@ function Navcomponent() {
                   مشروع السيرة الذاتية
                 </NavDropdown.Item>
                 <NavDropdown.Item
+                  href="https://github.com/Diouani1/my-portofolio"
+                  target="_blank"
+                >
+                  مشروع موقعي الشخصي
+                </NavDropdown.Item>
+                <NavDropdown.Item
                   href="https://github.com/Diouani1/Friseur-Project"
                   target="_blank"
                 >

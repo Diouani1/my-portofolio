@@ -58,6 +58,12 @@ function Navcomponent() {
                   Build resume
                 </NavDropdown.Item>
                 <NavDropdown.Item
+                  href="https://github.com/Diouani1/my-portofolio"
+                  target="_blank"
+                >
+                  My Portofolio
+                </NavDropdown.Item>
+                <NavDropdown.Item
                   href="https://github.com/Diouani1/Friseur-Project"
                   target="_blank"
                 >
