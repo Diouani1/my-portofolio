@@ -1,8 +1,6 @@
 import "./Project.css"
 import { Button, Card, Row, Col } from 'react-bootstrap';
-import frisour from "../../../assets/img/frisour.png";
 import me from "../../../assets/img/me.png";
-import resume from "../../../assets/img/resume.png";
 
 function Projectcomponent() {
   return (
@@ -11,9 +9,9 @@ function Projectcomponent() {
           <Row className="justify-content-md-center m-3">
             <Col md={4} sm={12} className="mb-3">
               <Card className="h-100">
-                <Card.Img variant="top" src={frisour} />
+                <Card.Img variant="top" src={me} />
                 <Card.Body className="d-flex flex-column justify-content-between">
-                  <Card.Title className="text-center">Friseur App</Card.Title>
+                  <Card.Title className="text-center">Friseur App Project</Card.Title>
                   <div className="d-flex justify-content-evenly mt-auto">
                     <Button variant="outline-primary" 
                     href="https://barbershop-diouani.onrender.com"
@@ -31,7 +29,7 @@ function Projectcomponent() {
               <Card className="h-100">
                 <Card.Img variant="top" src={me} />
                 <Card.Body className="d-flex flex-column justify-content-between">
-                  <Card.Title className="text-center">My Portfolio</Card.Title>
+                  <Card.Title className="text-center">My Portfolio Project</Card.Title>
                   <div className="d-flex justify-content-evenly mt-auto">
                     <Button variant="outline-primary" 
                      href="https://www.diouani-mokhtar.de/"
@@ -47,9 +45,9 @@ function Projectcomponent() {
             </Col>
             <Col md={4} sm={12} className="mb-3">
               <Card className="h-100">
-                <Card.Img variant="top" src={resume} />
+                <Card.Img variant="top" src={me} />
                 <Card.Body className="d-flex flex-column justify-content-between">
-                  <Card.Title className="text-center">Build Resume</Card.Title>
+                  <Card.Title className="text-center">Build Resume Project</Card.Title>
                   <div className="d-flex justify-content-evenly mt-auto">
                     <Button variant="outline-primary"
                     href="https://diouani1.github.io/react-group-project/"

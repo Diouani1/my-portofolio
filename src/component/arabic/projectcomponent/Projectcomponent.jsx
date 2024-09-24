@@ -1,8 +1,6 @@
 import "./Project.css"
 import { Button, Card, Row, Col } from 'react-bootstrap';
-import frisour from "../../../assets/img/frisour.png";
 import me from "../../../assets/img/me.png";
-import resume from "../../../assets/img/resume.png";
 
 function Projectcomponent() {
   return (
@@ -11,7 +9,7 @@ function Projectcomponent() {
           <Row className="justify-content-md-center m-3">
             <Col md={4} sm={12} className="mb-3">
               <Card className="h-100">
-                <Card.Img variant="top" src={frisour} />
+                <Card.Img variant="top" src={me} />
                 <Card.Body className="d-flex flex-column justify-content-between">
                   <Card.Title className="text-center">مشروع حلاق</Card.Title>
                   <div className="d-flex justify-content-evenly mt-auto">
@@ -47,7 +45,7 @@ function Projectcomponent() {
             </Col>
             <Col md={4} sm={12} className="mb-3">
               <Card className="h-100">
-                <Card.Img variant="top" src={resume} />
+                <Card.Img variant="top" src={me} />
                 <Card.Body className="d-flex flex-column justify-content-between">
                   <Card.Title className="text-center">مشروع السيرة الذاتية</Card.Title>
                   <div className="d-flex justify-content-evenly mt-auto">
