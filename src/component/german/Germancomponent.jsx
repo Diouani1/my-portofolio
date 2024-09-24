@@ -6,6 +6,7 @@ import Maincomponent from "./maincomponent/Maincomponent";
 import Aboutcomponent from "./aboutcomponent/Aboutcomponent";
 import Contactcomponent from "./contactcomponent/Contactcomponent";
 import Footercomponent from "./footercomponent/Footercomponent";
+import Projectcomponent from "./projectcomponent/Projectcomponent"
 
 function Germancomponent() {
   return (
@@ -15,6 +16,8 @@ function Germancomponent() {
         <Route path="/german" element={<Maincomponent />} />
         <Route path="/about" element={<Aboutcomponent />} />
         <Route path="/contact" element={<Contactcomponent />} />
+        <Route path="/project" element={<Projectcomponent />} />
+
         <Route path="*" element={<Maincomponent />} />
       </Routes>
       <Footercomponent />

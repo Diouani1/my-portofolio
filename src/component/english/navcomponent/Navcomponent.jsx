@@ -50,51 +50,13 @@ function Navcomponent() {
               >
                 CONTACT
               </Nav.Link>
-              <NavDropdown title="Projects" id="basic-nav-dropdown">
-                <NavDropdown title="My Portofolio">
-                  <NavDropdown.Item
-                    href="https://www.diouani-mokhtar.de/"
-                    target="_blank"
-                  >
-                    Live Project
-                  </NavDropdown.Item>
-                  <NavDropdown.Item
-                    href="https://github.com/Diouani1/my-portofolio"
-                    target="_blank"
-                  >
-                    GitHub
-                  </NavDropdown.Item>
-                </NavDropdown>
-
-                <NavDropdown title="Build resume">
-                  <NavDropdown.Item
-                    href="https://diouani1.github.io/react-group-project/"
-                    target="_blank"
-                  >
-                    Live Project
-                  </NavDropdown.Item>
-                  <NavDropdown.Item
-                    href="https://github.com/Diouani1/react-group-project"
-                    target="_blank"
-                  >
-                    GitHub
-                  </NavDropdown.Item>
-                </NavDropdown>
-                <NavDropdown title="Friseur App">
-                  <NavDropdown.Item
-                    href="https://barbershop-diouani.onrender.com"
-                    target="_blank"
-                  >
-                    Live Project
-                  </NavDropdown.Item>
-                  <NavDropdown.Item
-                    href="https://github.com/Diouani1/Friseur-Project"
-                    target="_blank"
-                  >
-                    GitHub
-                  </NavDropdown.Item>
-                </NavDropdown>
-              </NavDropdown>
+              <Nav.Link
+                className="custom-navbar"
+                onClick={() => handleMenuItemClick("project")}
+              >
+                PROJECTS
+              </Nav.Link>
+              
 
               <Nav.Link
                 className="custom-navbar"
