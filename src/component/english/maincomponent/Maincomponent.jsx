@@ -16,10 +16,9 @@ function Maincomponent() {
           <span>Digital Career</span>
         </h1>
         <h3>
-          I have successfully acquired proficient <br />
-          web development skills through my training
-          <br />
-          with <span> DCI</span>
+          Through dedicated training and hands-on experience, <br />
+          I have developed strong proficiency in web development <br />
+          and am confident in my ability to build high-quality websites.
         </h3>
         <Button href="tel:00 49 15217937286" className="main-btn">
           Call Now

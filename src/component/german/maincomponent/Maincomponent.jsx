@@ -16,9 +16,9 @@ function Maincomponent() {
           <span>Digitale Karriere</span>
         </h1>
         <h3>
-          Ich habe erfolgreich umfassende <br />
-          Webentwicklungsfähigkeiten erworben <br />
-          durch meine Ausbildung bei <span>DCI</span>
+          Durch intensives Training und praktische Erfahrung <br />
+          habe ich fundierte Kenntnisse in der Webentwicklung erworben <br />
+          und bin sicher in der Umsetzung hochwertiger Websites.
         </h3>
         <Button href="tel:00 49 15217937286" className="main-btn">
           Jetzt anrufen
