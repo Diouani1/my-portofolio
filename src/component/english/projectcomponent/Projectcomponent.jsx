@@ -68,7 +68,7 @@ function Projectcomponent() {
               <Card className="h-100">
                 <Card.Img style={{height:"65%"}} variant="top" src={cashier} />
                 <Card.Body className="d-flex flex-column justify-content-between">
-                  <Card.Title className="text-center">My Portfolio Project</Card.Title>
+                  <Card.Title className="text-center">My personal project for frontend is built with React</Card.Title>
                   <div className="d-flex justify-content-evenly mt-auto">
                     <Button variant="outline-primary" 
                      href="https://diouani1.github.io/react-project/"
