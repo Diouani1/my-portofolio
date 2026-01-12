@@ -16,7 +16,7 @@ function Projectcomponent() {
                 <Card.Img style={{height:"65%"}} variant="top" src={portofolioImg} />
                 <Card.Body className="d-flex flex-column justify-content-between p-5">
                   <Card.Title className="text-center">Mein Portfolio Mit REACT</Card.Title>
-                  <div className="d-flex justify-content-evenly mt-auto">
+                  <div className="d-flex flex-column flex-md-row justify-content-between mt-auto gap-2">
                     <Button variant="outline-primary" 
                      href="https://www.diouani-mokhtar.de/"
                     target="_blank"
@@ -35,7 +35,7 @@ function Projectcomponent() {
                 <Card.Img style={{height:"65%", border:"solid 1px"}} variant="top" src={javaprof} />
                 <Card.Body className="d-flex flex-column justify-content-between p-5">
                   <Card.Title className="text-center">Mein Portfolio Mit JAVA</Card.Title>
-                  <div className="d-flex justify-content-evenly mt-auto">
+                  <div className="d-flex flex-column flex-md-row justify-content-between mt-auto gap-2">
                     <Button variant="outline-primary" 
                      href="https://java-portfolio-1.onrender.com"
                     target="_blank"
