@@ -1,5 +1,5 @@
 import "./Footer.css";
-import { Button, NavLink } from "react-bootstrap";
+import {  NavLink } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedinIn,
