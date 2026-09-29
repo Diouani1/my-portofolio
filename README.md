@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# El Mokhtar Diouani — Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Personal full-stack developer portfolio built with React.
 
-## Available Scripts
+The site presents my profile, technical skills, selected work and contact information in **English, German and Arabic**, including RTL support for Arabic.
 
-In the project directory, you can run:
+## Featured work
 
-### `npm start`
+### Anwesenheit
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+An internal full-stack attendance and kiosk application developed for a music school. The system runs inside the company's local network and is intentionally **not publicly accessible**. Students use a dedicated touchscreen kiosk to register attendance, while authorized staff use a protected administration interface to manage courses, participants, absence statuses and attendance records.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The public portfolio describes the project at a high level only. Internal network addresses, credentials, database connection details and other company infrastructure information are intentionally not published.
 
-### `npm test`
+### Portfolio
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This website is itself a responsive multilingual React project with a shared component structure and English, German and Arabic content.
 
-### `npm run build`
+## Tech used in this portfolio
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React
+- Vite
+- JavaScript
+- CSS
+- Font Awesome
+- Formspree contact form
+- Responsive design
+- Multilingual / RTL UI
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Local development
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm install
+npm start
+```
 
-### `npm run eject`
+The development server runs at `http://localhost:5173` by default.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Production build
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm run build
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Project structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The main multilingual content and page structure are in `src/App.jsx`. Shared styling and responsive rules are in `src/App.css`.
 
-## Learn More
+## Future projects
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The Projects section is designed to grow as additional work becomes ready for public presentation. Projects that are still private, in development or not yet publicly released should only be added when their public description and links are ready.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contact
 
-### Code Splitting
+The contact form uses Formspree. Social links for GitHub, LinkedIn and Xing are available directly in the portfolio.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+© El Mokhtar Diouani
